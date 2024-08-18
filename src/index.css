@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#preview h1 {
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+#preview h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#preview strong {
+    font-weight: bold;
+}
+
+#preview em {
+    font-style: italic;
+}
+
+#preview code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+#preview pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
